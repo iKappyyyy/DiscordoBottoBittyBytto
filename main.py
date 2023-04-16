@@ -1,9 +1,5 @@
-print("Hello, sucker.")
-print("no you, bis.")
-print("you suck ass bro")
-game_run = True
+def deez():
+    print("nuts")
 
-while game_run == True or game_run and game_run == True:
-    pass
 
-# f3 e6 g4 qh4#
+deez()
