@@ -14,4 +14,4 @@ async def tempalato(ctx):
     ...
 
 
-bot.run("MTA5NzE5OTc2NDIyMDY3NDA2OQ.G5Q6UO.2RdvPofpDYVf6gerwGnqNSRDM6aAGcMEI1SwAc")  # TODO: add token
+bot.run("MTA5NzE5OTc2NDIyMDY3NDA2OQ.GKJ8_1.ouDHjBXyzpVdVJwE9NiMR3hRHG_38uy43y6Nzk")  # TODO: get gud kid
