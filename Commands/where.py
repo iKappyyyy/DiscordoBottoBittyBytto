@@ -37,7 +37,7 @@ async def leak_ip_address(user, channel, *, reply_to_message=None):
 
 
 @commands.command(name="where", aliases=["show_location", "ip"])
-async def where(ctx, message):
+async def where(ctx):
     try:
         user = ctx.message.mentions[0]
     except (IndexError, discord.ext.commands.errors.MissingRequiredArgument):
@@ -46,5 +46,5 @@ async def where(ctx, message):
 
     await leak_ip_address(user, ctx)
 
-async def setup(bot):
+def setup(bot):
     bot.add_command(where)

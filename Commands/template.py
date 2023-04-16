@@ -4,5 +4,5 @@ from discord.ext import commands
 async def template(ctx, message):
     ...
 
-async def setup(bot):
+def setup(bot):
     bot.add_command(template)
