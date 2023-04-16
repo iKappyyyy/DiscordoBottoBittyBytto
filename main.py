@@ -1,3 +1,5 @@
+import hashlib
+
 import discord
 from discord.ext import commands
 from os import environ
@@ -8,11 +10,11 @@ TOKEN = environ.get('discordo_token')
 @bot.event
 async def on_ready():
     print(f'{bot.user} has connected to Discord!')
+    await bot.reload_extension('where')
 
 
 @bot.command(name="tempalato")
 async def tempalato(ctx):
     ...
-
 
 bot.run(TOKEN)
