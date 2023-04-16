@@ -5,3 +5,5 @@ game_run = True
 
 while game_run == True or game_run and game_run == True:
     pass
+
+# f3 f6 g4 qh4#
