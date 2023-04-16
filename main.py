@@ -1,6 +1,6 @@
 print("Hello, sucker.")
-print("no you, bis.")
 print("you suck ass bro")
+a = 58
 game_run = True
 
 while game_run == True or game_run and game_run == True:
