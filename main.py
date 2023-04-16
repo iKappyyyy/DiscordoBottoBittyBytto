@@ -1,11 +1,10 @@
-import hashlib
-
 import discord
 from discord.ext import commands
 from os import environ
 
-bot = commands.Bot(command_prefix="!!", intents=discord.Intents.all())
-TOKEN = environ.get('discordo_token')
+bot = commands.Bot(command_prefix="!!", intents=discord.Intents.all(), activity=discord.Game("In The Hunger Games"))
+TOKEN = environ.get('DISCORDO_BOTTO_TOKEN')
+
 
 @bot.event
 async def on_ready():
@@ -16,5 +15,6 @@ async def on_ready():
 @bot.command(name="tempalato")
 async def tempalato(ctx):
     ...
+
 
 bot.run(TOKEN)
